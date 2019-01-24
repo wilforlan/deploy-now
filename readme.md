@@ -1,5 +1,5 @@
 # DEPLOY NOW!
-##### A fast and easy tool to deploy your app via ssh in minutes
+##### A fast and easy tool to deploy your app via ssh in minutes (no git required)
 
 ### *How it works*
  - Bundle your project directory
