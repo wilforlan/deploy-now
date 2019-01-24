@@ -1,0 +1,28 @@
+{
+  "name": "deploy-now",
+  "version": "1.0.0",
+  "description": "Simple library to deploy application via ssh",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "deploy-now": "./main.js"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "engineStrict": true,
+  "preferGlobal": true,
+  "author": "Williams Isaac",
+  "license": "MIT",
+  "dependencies": {
+    "archiver": "^3.0.0",
+    "jsonfile": "^5.0.0",
+    "mkdirp": "^0.5.1",
+    "node-ssh": "^5.1.2"
+  }
+}
