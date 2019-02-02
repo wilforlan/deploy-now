@@ -1,0 +1,13 @@
+{
+    "name": "new-project",
+    "host": "xxx.xx.xxx.xx",
+    "user": "****",
+    "password": "********",
+    "ignore": [
+        "*.pdf",
+        "*.log"
+    ],
+    "cmd": ["echo Yay!"],
+    "serverProjectRoot": "/var/app/new-project/",
+    "debug": true
+}
