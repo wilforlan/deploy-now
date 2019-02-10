@@ -54,6 +54,8 @@ Its required that you have `deploy-now.json` in your project root.
 | cmd               	| Array of commands to execute after upload is complete                                                             	| no, but important  	|
 | serverProjectRoot 	| Path to your app root directory or desired path (it can be created on the fly)                                    	| yes                	|
 | debug             	| Wanna see the logs on the console? Set it to true                                                                    	| no                 	|
+| runAfter             	| How long should the watcher wait before it deploys your changes while using sync? Default `10000ms`  	| no                 	|
+| watchRecursive        | Should the watcher watch more than the root dir? Default `true`   	| no                 	|
 
 
 # Quick and Easy huh?
