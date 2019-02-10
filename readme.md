@@ -50,7 +50,7 @@ Its required that you have `deploy-now.json` in your project root.
 | user              	| Authenticating user to login with                                                                                 	| yes                	|
 | password          	| Password to your account. Do not worry, your password never leaves your local PC                                  	| if(privateKey) no; 	|
 | privateKey        	| Full path to your private key. Usually a `.pem` file                                                              	| if(password) no;   	|
-| ignore            	| Array of files/folder to ignore. Only glob pattern supported See: https://github.com/isaacs/node-glob#glob-primer 	| no                 	|
+| ignore            	| Array of files/folder to ignore. Only glob pattern supported See: https://github.com/isaacs/node-glob#glob-primer (PS: All `*` will be removed if you are using `sync` mode) 	| no                 	|
 | cmd               	| Array of commands to execute after upload is complete                                                             	| no, but important  	|
 | serverProjectRoot 	| Path to your app root directory or desired path (it can be created on the fly)                                    	| yes                	|
 | debug             	| Wanna see the logs on the console? Set it to true                                                                    	| no                 	|
