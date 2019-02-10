@@ -16,6 +16,7 @@ npm install -g deploy-now
 |-----------------	|-------------------------------------------------------------------------------------------	|
 | deploy-now      	| Bundle project and upload to server Runs Command `cmd` from `deploy-now.json` in sequence 	|
 | deploy-now init 	| Easy create `deploy-now.json` file for the current project.                               	|
+| deploy-now sync 	| Syncronize local changes to your server as you are saving it.                             	|
 
 
 Run command to deploy
