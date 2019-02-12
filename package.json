@@ -1,6 +1,6 @@
 {
   "name": "deploy-now",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Simple library to deploy application via ssh",
   "main": "main.js",
   "directories": {
@@ -23,7 +23,8 @@
     "archiver": "^3.0.0",
     "jsonfile": "^5.0.0",
     "mkdirp": "^0.5.1",
-    "node-ssh": "^5.1.2"
+    "node-ssh": "^5.1.2",
+    "node-watch": "^0.6.0"
   },
   "repository": {
     "type": "git",
